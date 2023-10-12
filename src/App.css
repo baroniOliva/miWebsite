@@ -1,0 +1,82 @@
+.App {
+  text-align: center;
+  
+}
+
+.Header{
+  background: rgb(174,185,185);
+background: linear-gradient(114deg, rgba(174,185,185,1) 14%, rgba(13,0,0,1) 64%);
+  border: 2px solid black;
+  height: 16vh;
+  width : auto;
+  display: flex;
+  text-shadow: 2px 1px rgb(236, 232, 232);
+}
+
+.Header H1{
+  font-size: xx-large;
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
+.Header_buttons {  
+  display:flex;
+  position: relative;
+  justify-content: space-evenly;
+  width: 40%;
+
+}
+
+.Header_button_Web{
+    box-shadow: 0px 10px 14px -7px #276873;
+    background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+    background-color:#599bb3;
+    border-radius:8px;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:20px;
+    font-weight:bold;
+    padding:13px 32px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #3d768a;
+    margin: auto 2%;
+  }
+  .Header_button_Web:hover {
+    background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+    background-color:#408c99;
+  }
+  .Header_button_Web:active {
+    position:relative;
+    top:1px;
+  }
+
+
+  .Header_button_TPE{
+  box-shadow: 3px 4px 0px 0px #8a2a21;
+	background:linear-gradient(to bottom, #c62d1f 5%, #f24437 100%);
+	background-color:#c62d1f;
+	border-radius:18px;
+	border:1px solid #d02718;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Bangers', cursive;
+  font-weight: 700;
+  font-size:17px;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:1px 3px 0px #810e05;
+  margin: auto 4%;
+}
+.Header_button_TPE:hover {
+	background:linear-gradient(to bottom, #f24437 5%, #c62d1f 100%);
+	background-color:#f24437;
+}
+.Header_button_TPE:active {
+	position:relative;
+	top:1px;
+}
+

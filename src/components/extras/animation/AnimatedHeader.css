@@ -1,0 +1,22 @@
+.slide-in-enter {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  
+  .slide-in-enter-active {
+    transform: translateX(0);
+    opacity: 1;
+    transition: transform 1s ease, opacity 1s ease;
+  }
+  
+  .slide-in-exit {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  
+  .slide-in-exit-active {
+    transform: translateX(100%);
+    opacity: 0;
+    transition: transform 1s ease, opacity 1s ease;
+  }
+  

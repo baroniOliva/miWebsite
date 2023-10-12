@@ -1,0 +1,20 @@
+.contact-linkedin a{
+    color: rgb(50, 50, 155);
+    font-size: 105%;
+    text-decoration: none;
+    
+}
+
+.contact-linkedin a:active{
+    color: rgb(7, 7, 216);
+    font-size: 105%;
+    text-decoration: none;
+    
+}
+
+.contact-linkedin a:visited{
+    color: rgb(7, 7, 216);
+    font-size: 105%;
+    text-decoration: none;
+    
+}

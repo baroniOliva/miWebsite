@@ -1,0 +1,29 @@
+.container_Pokedex {
+    height: 20vh; 
+    overflow: auto; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    text-align: left;
+
+  }
+
+  .container_Pokedex h2{
+    font-size: 25px;
+    color: rgb(243, 243, 19);
+    text-shadow: 2px 3px rgb(5, 5, 5);
+    margin-bottom: 5%;
+}
+  .container_Pokedex h3 {
+    font-size: 18px;
+    color: #ccc;
+
+}
+
+.container_Pokedex b {
+    color: rgb(80, 80, 83);
+    font-size: 22px;
+    text-decoration: underline;
+    text-shadow: 2px 3px rgb(5, 5, 5);
+    display: block;
+
+}

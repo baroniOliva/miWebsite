@@ -1,0 +1,74 @@
+.contact_body{
+   
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+
+    
+}
+
+.contact_container{
+    
+    width: 100%;
+    height: 500px;
+    
+}
+
+.contact_text{
+
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-input{
+    display: block;
+    width: 85%;
+    padding: auto;
+    margin: 5%;
+    height: 3em;
+    text-align: center;
+}
+
+.contact-text {
+    height: 100px;
+    padding-top: 5%;
+}
+
+
+.myButton {
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+    
