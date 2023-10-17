@@ -42,7 +42,7 @@
 .paginaDos_contenido_description{
     
     display: flex;
-    height: 70%;
+    height: 83%;
 }
 
 .description_text{
@@ -71,7 +71,7 @@
 .description_buttons { 
     justify-content: space-around;   
     display: flex;  
-    margin-top: 2%;
+    margin:5% 0;
 }
 
 .myButton1 {
