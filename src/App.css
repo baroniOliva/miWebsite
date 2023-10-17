@@ -80,3 +80,21 @@ background: linear-gradient(114deg, rgba(174,185,185,1) 14%, rgba(13,0,0,1) 64%)
 	top:1px;
 }
 
+@media (max-width: 768px) {
+  .Header {
+    flex-direction: column; 
+    height: auto; 
+    padding: 20px; 
+  }
+
+  .Header_buttons {
+    flex-direction: column; 
+    width: 100%;
+  }
+
+  .Header_button_Web, .Header_button_TPE {
+    padding: 10px 16px; 
+    margin: 5px 0; 
+  }
+}
+

@@ -71,4 +71,17 @@
 	top:1px;
 }
 
+@media (max-width: 768px) {
+    .contact_body{
+        max-height: 90vh;
+        margin-top: 26%;
+    
+        
+    }
+
+    .contact_text{
+        background-color: #2f3131a8;
+    }
+
+}
     

@@ -3,6 +3,7 @@
 background: linear-gradient(111deg, rgba(239,246,0,1) 20%, rgba(13,0,0,1) 22%);
 display: flex;
 color: aliceblue;
+
 }
 
 .body_picture{
@@ -77,6 +78,53 @@ color: aliceblue;
     font-size: 130%;
 
 }
+
+@media (max-width: 768px) {
+    .body{
+        margin-top: 25%;
+   min-width: 100%;      
+    display: block;
+    padding-bottom: 26%;
+    
+    }
+
+    .body_picture{
+        max-width: 30%;
+        max-height: 20%;
+        margin: 5% auto;
+        background-size: cover;
+        background-position: center;
+       
+    }
+
+    .body_text{
+        width: auto;
+        min-height: 60%;
+    }
+
+    .body_text h2{
+        font-size: 35px;
+        color: rgb(175, 180, 34);
+        text-shadow: 2px 3px rgb(31, 30, 30);
+
+    }
+   
+    .body_link ul{
+        display: flex;
+        min-width: 100%;
+     justify-content: space-around;
+      
+    }
+
+    .body_link li{
+        
+       margin-top: 0%;
+       margin-bottom: 25%;
+
+    }
+}
+
+
 
 
 

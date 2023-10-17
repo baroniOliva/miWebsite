@@ -13,4 +13,24 @@
     
 }
 
+@media (max-width: 768px) {
+
+    .container_main{
+        margin-top: 13vh;
+        height: 70vh;
+        position: relative;
+        
+        
+    }
+    
+    .bodyMain{
+        height: 150%;
+        width: 80vh;
+        background-size: contain;
+        
+        
+        
+    }
+
+}
 

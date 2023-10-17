@@ -9,7 +9,9 @@
     display: flex; 
     background-color: rgb(27, 26, 26);
     overflow-X: hidden;
-    overflow-y: auto;    
+    overflow-y: auto;
+    
+    
 }
 
 .barra_izquierda{
@@ -31,9 +33,6 @@ width: 100%;
 height: 90%;
 font-size: large;
 display: inline-block;
-
-
-
 }
 
 .barra_izquierda a{
@@ -59,7 +58,6 @@ display: inline-block;
 
 .Body_Content{
     background-color: rgb(17, 16, 16);
-    border: 1px solid blue;
     width:75%;
 }
 
@@ -76,3 +74,72 @@ display: inline-block;
       
 }
 
+
+@media (max-width: 768px) {
+
+    .barra_izquierda{
+        min-width: 100%;
+        max-height:12% !important;
+        position: absolute;
+        display: flex;
+        
+        
+    }
+
+    .barra_izquierda ul{
+        
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+    
+    }
+
+        .barra_izquierda_logo{
+    
+            max-width: 20%;
+            max-height: 100%;
+            position: absolute;
+            background-size: contain;
+            margin:0 1%;    
+
+        }
+
+        .barra_izquierda a{
+           max-width: 50px;
+           max-height: 50px;
+           position: relative;
+           justify-content: space-around;
+           border: none;
+           bottom: 15%;
+                       
+        }
+
+        .barra_izquierda_responsive_btn{
+            
+            max-width: 10%;
+            max-height: 5vh;
+            font-size: small;
+            position: relative;
+            text-align: top;
+            margin-left: 7%;
+            padding: 0 5%;
+            
+            
+        }
+
+        .barra_izquierda section{
+           
+            position: relative;
+            left: 20%;
+            min-width: 78%;
+            min-height: 100%;
+            display: flex;
+            flex-wrap: wrap;
+
+
+        }
+       
+
+
+
+}
