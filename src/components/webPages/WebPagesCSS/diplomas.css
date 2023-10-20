@@ -1,0 +1,93 @@
+.container_diplomas {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    overflow-Y: scroll;
+  }
+  
+  .diplomas {
+    width: 40%;
+    height: 30%;
+    border: 2px solid rgb(209, 202, 202);
+    border-radius: 3%;
+    color: rgb(247, 226, 196);
+    font-size: 1.3em;
+    margin: 2%;
+    position: relative;
+    cursor: pointer;
+   transition: all 0.3s; 
+   
+
+  
+  }
+  
+  .active{
+    border: 1px solid pink;
+      width: 60%;
+      height: 50%;
+      order: -1;
+      background-color: rgba(184, 191, 197, 0.692);
+      color: black;
+      font-weight: 600;
+      transition: all 0.4s ease-in;
+
+  }
+
+  .diplomaStyle{
+    
+    background-size: cover;
+    margin: auto;
+    width: 90%;
+    height: 90%;
+  }
+
+  .diploma1{
+    background-image: url(../certificates/Git_certificate.jpg);
+  }
+
+  .diploma2{
+    background-image: url(../certificates/javaScript_certificates.jpg);
+  }
+
+  .diploma3{
+    background-image: url(../certificates//javaScript_DOM-certificate.jpg);
+  }
+  .diploma4{
+    background-image: url(../certificates/HTML5_CSS3_certificate.jpg);
+  }
+  .diploma5{
+    background-image: url(../certificates/react_certificates.jpg)
+  }
+  .diploma6{
+    background-image: url(../certificates/habitos_personales_certificate.jpg);
+  }
+
+  @media (max-width: 768px) {
+
+    .container_diplomas {
+      margin-top: 27%;
+      
+    }
+
+    .diplomas{
+      
+      font-size: 1em;
+
+    }
+
+    .diplomaStyle{
+      
+      height: 75%;
+    }
+
+    .active{
+        width: 75%;
+        height: 40%;      
+        color: black;
+        font-weight: 900;
+        font-size: 1.3em;  
+    }
+
+  }

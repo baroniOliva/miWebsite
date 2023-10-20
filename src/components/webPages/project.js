@@ -28,25 +28,28 @@ const Project = () => {
         <div className="project_body">
         <div className="body_projects">
 
-                <div onClick={() => setOpcionSeleccionada('Poke')} className="container" ><a href="https://baronioliva.github.io/ejercicio4Pokedex/" target="_blank">
+                <div  className="container" >
                 <h2>Pokedex</h2>
                 <div className='fondo' style={{ backgroundImage: `url(${backgroundPokedex})` }}></div>
                 
-            </a>
+                <div className="link-button"><a href="https://baronioliva.github.io/ejercicio4Pokedex/" target="_blank"> link a proyecto </a></div>
+                <div className="link-button" onClick={() => setOpcionSeleccionada('Poke')} > descripcion proyecto </div>
             </div>
 
-            <div onClick={() => setOpcionSeleccionada('Calc')} className="container"><a href="https://baronioliva.github.io/ejercicio3Calculdora/" target="_blank">
+            <div  className="container ">
                 <h2>Calculadora</h2>
                 <div  className='fondo' style={{ backgroundImage: `url(${backgroundCalc})` }}></div>
                 
-            </a>
+                <div className="link-button"><a href="https://baronioliva.github.io/ejercicio3Calculdora/" target="_blank"> link a proyecto </a></div>
+                <div className="link-button" onClick={() => setOpcionSeleccionada('Calc')} > descripcion proyecto </div>
             </div>
 
-            <div onClick={() => setOpcionSeleccionada('Chama')}className="container"><a href="https://baronioliva.github.io/ejercicio2Camaleon/" target="_blank">
+            <div className="container">
                 <h2>Fondo Camaleon</h2>
                 <div className='fondo' style={{ backgroundImage: `url(${backgroundCamaleon})` }}></div>
                 
-            </a>         
+                <div className="link-button"><a href="https://baronioliva.github.io/ejercicio2Camaleon/" target="_blank"> link a proyecto </a></div>
+                <div className="link-button" onClick={() => setOpcionSeleccionada('Chama')} > descripcion proyecto </div>        
             </div>
             </div>
             <div className="project_detail">
