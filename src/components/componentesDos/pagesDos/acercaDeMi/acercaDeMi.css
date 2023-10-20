@@ -15,3 +15,17 @@
     text-align: center;
     
 }
+
+@media (max-width: 768px) {
+
+    .aboutMe_main{
+        width: 75%;
+        height: 65vh;
+    }
+
+    .aboutMe_container_text{
+        
+        font-size: 1.3em;
+    }
+
+}
