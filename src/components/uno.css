@@ -77,6 +77,7 @@ display: inline-block;
 
 @media (max-width: 768px) {
 
+
     .barra_izquierda{
         min-width: 100%;
         max-height:12% !important;

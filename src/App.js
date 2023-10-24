@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './App.css';
 import PaginaUno from './components/PaginaUno';
 import PaginaDos from './components/PaginaDos';
-
+import FirstPage from './components/firstPage/firstPage';
 
 function App() {
   const [opcionSeleccionada, setOpcionSeleccionada] = useState(null);
@@ -26,6 +26,8 @@ function App() {
       </div>
       </header>
       {mostrarPagina()}
+       
+    <FirstPage/>
     </div>
   );
 }

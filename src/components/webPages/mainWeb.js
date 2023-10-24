@@ -7,6 +7,7 @@ const MainWeb = ()=>{
     return(
         <div className="container_main">
         <div className='bodyMain' style={{ backgroundImage: `url(${background})` }}>
+            
              
              
              </div>

@@ -3,6 +3,7 @@
     display: flex;
     width: 170vh;
     overflow: hidden;
+    border: 2px solid red;
 
 
 

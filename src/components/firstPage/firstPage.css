@@ -1,0 +1,33 @@
+.firstPage_container{
+    color:red;
+    width: 100%;
+    height: 100%;
+}
+
+.firstPageBkg{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+
+.firstPageBkg_responsive{
+    display: none;
+}
+
+@media (max-width: 768px) {
+
+    .firstPageBkg{
+        display: none;
+    }
+
+    .firstPageBkg_responsive{
+        width: 100%;
+        height: 100vh;
+        background-size: cover;
+        display: flex;
+
+    }
+
+}
+
+
