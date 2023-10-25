@@ -8,7 +8,10 @@ function App() {
   const [opcionSeleccionada, setOpcionSeleccionada] = useState(null);
 
   const mostrarPagina = () => {
-    if (opcionSeleccionada === 'opcionUno') {
+    if (opcionSeleccionada === null){
+      return <FirstPage setOpcionSeleccionada={setOpcionSeleccionada} />;
+    }
+    else if (opcionSeleccionada === 'opcionUno') {
       return <PaginaUno />;
     } else if (opcionSeleccionada === 'opcionDos') {
       return <PaginaDos />;
@@ -27,7 +30,7 @@ function App() {
       </header>
       {mostrarPagina()}
        
-    <FirstPage/>
+   
     </div>
   );
 }

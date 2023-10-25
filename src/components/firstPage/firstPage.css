@@ -2,16 +2,25 @@
     color:red;
     width: 100%;
     height: 100%;
+    
 }
 
 .firstPageBkg{
     width: 100%;
     height: 100vh;
+    display:flex ;
     background-size: cover;
 }
 
 .firstPageBkg_responsive{
     display: none;
+}
+
+.firstPageOpcion{
+    position: relative;
+    width: 48%;
+    height: 100vh;
+    margin: 0 1%;
 }
 
 @media (max-width: 768px) {
@@ -21,10 +30,13 @@
     }
 
     .firstPageBkg_responsive{
+        
         width: 100%;
         height: 100vh;
         background-size: cover;
-        display: flex;
+       background-position: center;
+       display:flex ;
+        background-repeat: no-repeat;
 
     }
 
